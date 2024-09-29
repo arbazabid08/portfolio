@@ -1,20 +1,24 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelor of Science",
+    degree: "Computer Science",
+    duration: "2018 - 2023",
+    institution: "University of Central Punjab",
+    Location: "Lahore Pakistan",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Intermediate",
+    degree: "Pre Engineering",
+    duration: "2016 - 2018",
+    institution: "Punjab College",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Secondary High School",
+    duration: "2014 - 2016",
+    degree: "Biology Maths",
+    institution: "The Educators",
   }
 ]

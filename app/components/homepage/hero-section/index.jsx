@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { SiTryhackme,SiHackthebox } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -46,19 +46,13 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
+            
             <Link
-              href={personalData.facebook}
+              href={personalData.tryhackme}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <FaFacebook size={30} />
-            </Link>
-            <Link
-              href={personalData.leetcode}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={30} />
+              <SiTryhackme size={30} />
             </Link>
             <Link
               href={personalData.twitter}
@@ -100,82 +94,74 @@ function HeroSection() {
           <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
-                <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
-                <span className="mr-2 text-pink-500">=</span>
-                <span className="text-gray-400">{'{'}</span>
+                <span className="mr-2 text-red-500">(root@arbazabid)-[~]#</span>
+                <span className="mr-2 text-white">cat</span>
+                <span className="mr-2 text-pink-500">Profile.txt</span>
+                <span className="text-gray-400">{''}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
-                <span className="text-gray-400">{`',`}</span>
+                <span className="text-gray-400">{``}</span>
+                <span className="text-amber-300">Arbaz Abid</span>
+                <span className="text-gray-400">{`,`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
-                <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">{`[`}</span>
+                <span className="text-amber-300">Linux Hardeing</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Bash Scripting</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Vulnerability Assessment</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Network Security</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Penetration Testing</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Cloud Security</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Web Security</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Wifi Pentesting</span>
+               
+                <span className="text-gray-400">{", "}</span>
                 <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">{", "}</span>
                 <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{", "}</span>
+                <span className="text-amber-300">Exploitation</span>
+                
+                <span className="text-gray-400">{"],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">Lanuages:</span>
+                <span className="text-orange-400">Python, C++, Asembly, SQL</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">CyberSec Role:</span>
+                <span className="text-orange-400">Red Teaming</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+              <span className="ml-4 lg:ml-8 mr-2 text-white"></span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">HardWorker:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">QuickLearner:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">ProblemSolver:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
-                <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{'() {'}</span>
-              </div>
-              <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-                <span className="text-gray-400">{`(`}</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">hardWorker</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">problemSolver</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">skills.length</span>
-                <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
-              </div>
-              <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
-              <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
-              <div><span className="text-gray-400">{`};`}</span></div>
+
             </code>
           </div>
         </div>

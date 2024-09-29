@@ -1,6 +1,5 @@
 import * as adobeXd from '/public/svg/skills/adobe-xd.svg';
-import adobeaudition from '/public/svg/skills/adobeaudition.svg';
-import afterEffects from '/public/svg/skills/after-effects.svg';
+import ignite from '/public/svg/skills/ignite.jpeg';
 import angular from '/public/svg/skills/angular.svg';
 import aws from '/public/svg/skills/aws.svg';
 import azure from '/public/svg/skills/azure.svg';
@@ -35,7 +34,7 @@ import java from '/public/svg/skills/java.svg';
 import javascript from '/public/svg/skills/javascript.svg';
 import julia from '/public/svg/skills/julia.svg';
 import kotlin from '/public/svg/skills/kotlin.svg';
-import lightroom from '/public/svg/skills/lightroom.svg';
+import linux from '/public/svg/skills/linux.jpeg';
 import markdown from '/public/svg/skills/markdown.svg';
 import materialui from '/public/svg/skills/materialui.svg';
 import matlab from '/public/svg/skills/matlab.svg';
@@ -55,6 +54,7 @@ import postgresql from '/public/svg/skills/postgresql.svg';
 import premierepro from '/public/svg/skills/premierepro.svg';
 import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
+import penetration from '/public/svg/skills/penetration.jpg';
 import react from '/public/svg/skills/react.svg';
 import ruby from '/public/svg/skills/ruby.svg';
 import selenium from '/public/svg/skills/selenium.svg';
@@ -89,8 +89,8 @@ export const skillsImage = (skill) => {
       return illustrator;
     case 'adobe xd':
       return adobeXd;
-    case 'after effects':
-      return afterEffects;
+    case 'ignite':
+      return ignite;
     case 'css':
       return css;
     case 'angular':
@@ -157,8 +157,8 @@ export const skillsImage = (skill) => {
       return ruby;
     case 'swift':
       return swift;
-    case 'adobe audition':
-      return adobeaudition;
+    case 'penetration testing':
+      return penetration;
     case 'aws':
       return aws;
     case 'deno':
@@ -173,8 +173,8 @@ export const skillsImage = (skill) => {
       return git;
     case 'graphql':
       return graphql;
-    case 'lightroom':
-      return lightroom;
+    case 'linux':
+      return linux;
     case 'materialui':
       return materialui;
     case 'nginx':
